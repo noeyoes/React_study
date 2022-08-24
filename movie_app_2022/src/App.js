@@ -1,7 +1,7 @@
 import React from "react";
 
 function Food({fav}) {
-  return <h1>I like { fav } </h1>;
+  return <h3>I like { fav } </h3>;
 }
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
       <Food fav = "chicken" />
       <Food fav = "candy" />
       <Food fav = "jelly" />
+      <Food fav = "coffee" />
     </div>
   );
 }
